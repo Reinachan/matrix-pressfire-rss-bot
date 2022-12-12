@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"target": "ESNext",
+		"sourceMap": true,
+		"outDir": "./build",
+		"types": ["node"]
+	},
+	"include": ["./src/**/*"]
+}

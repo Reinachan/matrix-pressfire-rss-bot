@@ -1,0 +1,23 @@
+{
+	"name": "matrix-rss-bot",
+	"version": "1.0.0",
+	"description": "Posts an RSS feed to a Matrix room",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "tsc && node build/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Reinachan",
+	"license": "GPL-3.0-or-later",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"matrix-bot-sdk": "^0.6.2",
+		"rss-parser": "^3.12.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.13",
+		"eslint": "^8.29.0",
+		"typescript": "^4.9.4"
+	}
+}
